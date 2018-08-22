@@ -5,6 +5,7 @@
 
 
 def even(lst):
+'''this function returns even numbers only '''
     return [i for i in lst if i%2 == 0]
 
 def multipleof3(lst):
